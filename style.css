@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form, button, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style the main sections */
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings */
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style form elements */
+input[type="text"], input[type="file"], button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Center align forms */
+form {
+    text-align: center;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    section {
+        margin: 10px 0;
+        padding: 10px;
+    }
+    input[type="text"], input[type="file"], button {
+        width: 100%;
+    }
+}
+
+/* Add more specific styles and customization as needed */
